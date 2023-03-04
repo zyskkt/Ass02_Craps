@@ -6,7 +6,6 @@ public class Main {
         //Initialize scanner and random
         Scanner in = new Scanner(System.in);
         Random random = new Random();
-
         //Initialize variables
         //Point which is set by the first dice roll
         int point = 0;
@@ -62,7 +61,7 @@ public class Main {
                         continuePlaying = choice.equalsIgnoreCase("y");
                     }
                 }
-        }
+             }
         //If user chooses "N" for play again, thank them
         System.out.println("Thanks for playing!");
     }
