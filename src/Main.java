@@ -42,8 +42,6 @@ public class Main {
                 //Current sum is the point
                 point = sum;
                 System.out.println("Point is " + point);
-                boolean tryingForPoint = true;
-
                     // Subsequent rolls
                     die1 = random.nextInt(6) + 1;
                     die2 = random.nextInt(6) + 1;
@@ -64,7 +62,6 @@ public class Main {
                         continuePlaying = choice.equalsIgnoreCase("y");
                     }
                 }
-
         }
         //If user chooses "N" for play again, thank them
         System.out.println("Thanks for playing!");
